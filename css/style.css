@@ -120,6 +120,15 @@ header nav div button:last-child {
     }
 }
 
+@media(max-width: 469px){
+    .text-banner div:last-child img {
+        display: none;
+    }
+
+    .create-your img{
+        display: none;
+    }
+}
 
 /*-----------------------------------------------------------*/
 
@@ -129,6 +138,7 @@ header nav div button:last-child {
 
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -171,7 +181,7 @@ header nav div button:last-child {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     opacity: 50%;
 }
@@ -262,6 +272,13 @@ header nav div button:last-child {
     color: white;
 }
 
+.increase-container div:last-child img {
+    width: 90%;
+}
+
+/*-----------------------------------------------------------*/
+
+
 .simpleWays-container {
     grid-column: 2/9;
     margin-top: 5rem;
@@ -314,7 +331,7 @@ header nav div button:last-child {
 .create-your {
     grid-column: 2/9;
 
-    margin-top: 5rem;
+    margin-top: 7rem;
     
     display: flex;
     flex-wrap: wrap;
@@ -322,6 +339,13 @@ header nav div button:last-child {
     flex-direction: column  ;
 }
 
+/*-----------------------------------------------------------*/
+
+.create-your img{
+    width: 90%;
+    margin-top: -7rem;
+    z-index: -999;
+}
 
 .create-your  h1 {
     max-width: 50rem;
