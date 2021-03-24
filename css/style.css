@@ -256,6 +256,7 @@ header nav div button:last-child {
 
 .increase-container div:first-child button{
     margin-top: 2rem;
+    padding: 0.9rem 2.1rem;
     
     background-color: var(--laranja-botao);
     color: white;
@@ -308,5 +309,35 @@ header nav div button:last-child {
 .simpleWays-container div:last-child ul li p{
     margin-top: 1rem;
     font-size: 0.8rem;
+}
+
+.create-your {
+    grid-column: 2/9;
+
+    margin-top: 5rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+
+.create-your  h1 {
+    max-width: 50rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.create-your  h1 span {
+   color: var(--laranja-botao);
+}
+
+.create-your button {
+    margin-top: 2rem;
+    padding: 0.9rem 2.1rem;
+
+    background-color: var(--laranja-botao);
+    color: white;
 }
 
