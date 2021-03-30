@@ -365,3 +365,68 @@ header nav div button:last-child {
     color: white;
 }
 
+
+
+.invest-container {
+    grid-column: 2/9;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.invest-container div {
+    max-width: 400px;
+    margin-top: 6rem;
+}
+
+.invest-container div:first-child h1{
+    margin-top: 4rem;
+    text-align: left;
+}
+
+.invest-container div:first-child h1 span{
+    color: var(--laranja-botao);
+}
+
+.invest-container div:first-child p{
+    font-size: 0.8rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.invest-container div:first-child button{
+    margin-top: 2rem;
+    padding: 0.9rem 2.1rem;
+    
+    background-color: var(--laranja-botao);
+    color: white;
+}
+
+.invest-container div:last-child img {
+    width: 100%;
+}
+
+.image-world {
+    grid-column: 1/10;
+
+    margin-top: -20rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image-world div {
+    content: url("/public/map.svg");
+    z-index: -999;
+
+}
+
+
+.help-container {
+    grid-column: 2/9;
+    
+    display: flex;
+}
